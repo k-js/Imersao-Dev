@@ -21,7 +21,13 @@ for( var indice = 0; indice < listaFilmes.length; indice++) {
 }
 */
  var listaFilmes = [
-   "https://capas-p.imagemfilmes.com.br/164777_000_p.jpg", "https://capas-p.imagemfilmes.com.br/164041_000_p.jpg", "https://www.google.com/url?sa=i&url=https%3A%2F%2Fimagemfilmes.com.br%2Ffilmes&psig=AOvVaw2ae8QA7zLxiJizvNX4PNxT&ust=1647138006454000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjx1Z_Cv_YCFQAAAAAdAAAAABBG",
+   "https://capas-p.imagemfilmes.com.br/164777_000_p.jpg",
+   "https://capas-p.imagemfilmes.com.br/164041_000_p.jpg",
+   "https://www.google.com/url?sa=i&url=https%3A%2F%2Fimagemfilmes.com.br%2Ffilmes&psig=AOvVaw2ae8QA7zLxiJizvNX4PNxT&ust=1647138006454000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjx1Z_Cv_YCFQAAAAAdAAAAABBG",
    "https://capas-p.imagemfilmes.com.br/164834_000_p.jpg"
-                    ]
+];
+
+for (var i = 0; i < listaFilmes.length; i++) {
+  document.write("<img src=" + listaFilmes[i] + ">");
+}
 
